@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
+    "plugins": []
+  }
+}
